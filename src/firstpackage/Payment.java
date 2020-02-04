@@ -17,11 +17,11 @@ public class Payment {
         driverDiscount=myScanner.nextFloat();
         System.out.println("please enter monthly payment");
 
-        float months= myScanner.nextInt();
-         double monthlyPayment=(MSRP-((100-driverDiscount)/100))/months;
+        int months= myScanner.nextInt();
+       // double monthlyPayment=(MSRP*((float)100-driverDiscount)/100))/months;
 
 
-        System.out.println("monthly payment is"+monthlyPayment);
+       // System.out.println("monthly payment is"+monthlyPayment);
     }
 
 }
