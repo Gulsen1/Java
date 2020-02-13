@@ -6,8 +6,8 @@ public class Increment {
 
 
         int x=5;
-        int y=x++;
-      //  int y=++x;
+      //  int y=x++;
+       int y=++x;
         System.out.println(""+y+""+x);
 
     }
