@@ -11,7 +11,7 @@ public class NestedLoop3 {
 
 for (int k=0;k<1; k++){
 
-    for(int s=0;s<3;s++){
+    for(int t=0;t<3;t++){
         System.out.print(" Hello");
     }
     System.out.println(" world");
