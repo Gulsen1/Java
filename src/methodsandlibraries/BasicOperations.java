@@ -1,7 +1,10 @@
 package methodsandlibraries;
 
 public class BasicOperations {
-    public static double returnSmth(){
+
+
+    public static double returnSmth()
+    {
         return 3.5;
     }
     public static int addTwo( int a, int b){
@@ -13,7 +16,8 @@ public class BasicOperations {
         return c;
 
     }
-    public static double muliplyTwo( int a, int b){
+    public static double muliplyTwo( int a, int b)
+    {
         return a*b;
     }
     public static int  divideTwo( int a, int b){
